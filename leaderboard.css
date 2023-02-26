@@ -1,0 +1,50 @@
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: url(images/leaderboardbg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo{
+	background-image: url(images/textlogobg.jpg);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+
+
+
+th {
+    background-color: rgb(113, 122, 138);
+}
+
+td { color: silver;
+    background-color: rgb(82, 87, 97);
+ }
+
+
+.button{
+	border : solid 1px white;
+	color: white;
+	border-radius: 25px;
+	font-size: 200%;
+	margin-top : 50px;
+	padding: 5px 20px 5px 20px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+	text-decoration : none;
+}
+
+.caserouge{
+	width: 30px;
+	height: 30px;
+	background: linear-gradient(180deg, rgba(94,4,4,1) 0%, rgba(180,3,3,1) 33%, rgba(224,3,3,1) 66%, rgba(80,1,22,1) 100%);
+	border-radius: 10px;
+}
